@@ -4,13 +4,13 @@ function Socials() {
   return (
     
     <div className='flex items-center gap-6 text-slate-400'>
-      <div>
+      <div className='hover:text-white transition-all ease-in-out duration-200 cursor-pointer'>
         <Github size={30} ></Github>
       </div>
-      <div>
+      <div className='hover:text-white transition-all ease-in-out duration-200 cursor-pointer'>
         <LiaTelegramPlane className='text-3xl'/>
       </div>
-      <div><LinkedinIcon size={30}></LinkedinIcon></div>
+      <div className='hover:text-white transition-all ease-in-out duration-200 cursor-pointer'><LinkedinIcon size={30}></LinkedinIcon></div>
       
     </div>
   );

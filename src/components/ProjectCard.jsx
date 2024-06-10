@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function ProjectCard({ url, preview, projName, description, tags }) {
   return (
-    <div className="flex flex-col justify-start  gap-4 ">
+    <div className="flex flex-col justify-start gap-4 ">
       <img
         className="ml-0 h-auto max-w-72 rounded-md border-4 border-slate-600"
         src={preview}
@@ -16,7 +16,7 @@ function ProjectCard({ url, preview, projName, description, tags }) {
             <ArrowUpRight className="place-self-start" size={20} />
           </div>
         </a>
-        <div className="text-slate-400">{description}</div>
+        <div className="text-slate-400 ">{description}</div>
       </div>
       <div className="flex items-center gap-4">
         {tags?.map((tag, i) => (
