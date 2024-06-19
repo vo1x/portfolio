@@ -1,9 +1,8 @@
-// import './App.css'
 import Index from './pages/Index';
 import Footer from './components/Footer';
 function App() {
   return (
-    <div className='lg:place-items-center lg:flex lg:flex-col'>
+    <div className="lg:flex lg:flex-col lg:place-items-center">
       <Index></Index>
       <Footer></Footer>
     </div>
