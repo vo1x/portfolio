@@ -11,7 +11,7 @@ function Projects() {
     }
   ];
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 mt-4">
       <div className="text-lg font-semibold text-slate-300">Projects</div>
       <div className="flex flex-col gap-20 ">
         {projList.map((project, i) => (
