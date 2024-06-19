@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="p-4 pb-8 pt-24 text-sm text-slate-500 md:pt-12">
+    <div className="p-4 pb-8 pt-36 text-sm text-slate-500 md:pt-12 lg:pt-36">
       Built with{' '}
       <span className="font-semibold text-slate-400">
         <a href="https://react.dev/" target="_blank">
