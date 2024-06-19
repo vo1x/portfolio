@@ -1,5 +1,5 @@
 import React from 'react';
-import Socials from './Socials';
+import Socials from '../SocialsList/Socials';
 function Branding() {
   return (
     <div className="flex flex-col items-center gap-2">

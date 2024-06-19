@@ -1,9 +1,9 @@
-import Branding from '../components/Header';
-import Status from '../components/Status';
-import Projects from '../components/Projects';
+import Branding from '../components/Hero/Header';
+import Status from '../components/Hero/Status';
+import Projects from '../components/Projects/Projects';
 import About from '../components/About';
-import Stack from '../components/Stack';
-import ContactButtons from '../components/ContactButtons';
+import Stack from '../components/Stack/Stack';
+import ContactButtons from '../components/Hero/ContactButtons';
 function Index() {
   return (
     <div className="flex min-h-screen flex-col gap-10  p-4 pt-8 lg:max-w-screen-lg">

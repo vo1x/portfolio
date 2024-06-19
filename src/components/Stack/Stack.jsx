@@ -1,5 +1,5 @@
 import StackCard from './StackCard';
-import { FaPython, FaHtml5, FaNodeJs, FaReact, FaFigma, FaCode, FaGithub, } from 'react-icons/fa6';
+import { FaPython, FaHtml5, FaNodeJs, FaReact, FaFigma, FaCode, FaGithub } from 'react-icons/fa6';
 import { SiVercel, SiCloudinary, SiMongodb } from 'react-icons/si';
 import { BiLogoJavascript, BiLogoTailwindCss } from 'react-icons/bi';
 import { Figma, Github } from 'lucide-react';
