@@ -14,7 +14,9 @@ function ContactButtons() {
       </button>
       <button className="flex w-max cursor-pointer items-center gap-4 rounded-md  border-t border-t-slate-700 bg-slate-800 p-2 text-slate-300 shadow-md">
         <MailIcon></MailIcon>
-        <span>Email me!</span>
+        <a href="mailto:vo1x.original@gmail.com?subject=Subject%20Here&body=Message%20Here">
+          Email me!
+        </a>
       </button>
     </div>
   );
