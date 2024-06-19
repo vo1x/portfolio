@@ -1,5 +1,4 @@
 import { ArrowUpRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 function ProjectCard({ url, preview, projName, description, tags }) {
   return (

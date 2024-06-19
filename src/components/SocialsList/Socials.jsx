@@ -1,4 +1,4 @@
-import { Github, LinkedinIcon, MailIcon } from 'lucide-react';
+import { Github, LinkedinIcon } from 'lucide-react';
 import { LiaTelegramPlane } from 'react-icons/lia';
 import SocialsIcon from './SocialsIcon';
 function Socials() {
