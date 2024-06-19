@@ -1,10 +1,10 @@
 import StackCard from './StackCard';
-import { FaPython } from 'react-icons/fa6';
-import { BiLogoJavascript } from 'react-icons/bi';
-import { FaHtml5 } from 'react-icons/fa6';
-import { BiLogoTailwindCss } from 'react-icons/bi';
-import { FaNodeJs } from 'react-icons/fa6';
-import { FaReact } from 'react-icons/fa6';
+import { FaPython, FaHtml5, FaNodeJs, FaReact, FaFigma, FaCode, FaGithub, } from 'react-icons/fa6';
+import { SiVercel, SiCloudinary, SiMongodb } from 'react-icons/si';
+import { BiLogoJavascript, BiLogoTailwindCss } from 'react-icons/bi';
+import { Figma, Github } from 'lucide-react';
+import { VscVscode } from 'react-icons/vsc';
+import StackSection from './StackSection';
 function Stack() {
   const devLangs = [
     {
@@ -33,13 +33,49 @@ function Stack() {
       name: 'Node.js'
     }
   ];
+
+  const apps = [
+    {
+      icon: <VscVscode />,
+      name: 'VS Code'
+    },
+    {
+      icon: <FaFigma />,
+      name: 'Figma'
+    },
+    {
+      icon: '',
+      name: 'Arc Browser'
+    }
+  ];
+
+  const services = [
+    {
+      icon: <FaGithub />,
+      name: 'GitHub'
+    },
+    {
+      icon: <SiVercel />,
+      name: 'Vercel'
+    },
+
+    {
+      icon: <SiCloudinary />,
+      name: 'Cloudinary'
+    },
+    {
+      icon: <SiMongodb />,
+      name: 'MongoDB'
+    }
+  ];
+
   return (
-    <div className="flex flex-col gap-4">
-      <div className="text-lg font-semibold text-slate-300">Stack</div>
-      <div className='flex flex-wrap gap-8'>
-        {devLangs.map((item, i) => (
-          <StackCard item={item} key={i} />
-        ))}
+    <div className="flex flex-col">
+      <div className="mb-2 text-lg font-semibold text-slate-300">Stack</div>
+      <div className="flex flex-col gap-8">
+        <StackSection title={'Development'} items={devLangs}></StackSection>
+        <StackSection title={'Apps'} items={apps}></StackSection>
+        <StackSection title={'Services'} items={services}></StackSection>
       </div>
     </div>
   );
