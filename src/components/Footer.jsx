@@ -15,7 +15,7 @@ function Footer() {
       </span>
       , hosted on{' '}
       <span className="font-semibold text-slate-400">
-        <a href="https://vercel/com/home" target="_blank">
+        <a href="https://vercel.com/home" target="_blank">
           Vercel
         </a>
       </span>
