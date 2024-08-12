@@ -1,4 +1,3 @@
-import React from 'react';
 import { DownloadIcon, MailIcon } from 'lucide-react';
 function ContactButtons() {
   return (
