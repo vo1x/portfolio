@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-function ProjectCard({ item }) {
+function StackCard({ item }) {
   const cardRef = useRef(null);
 
   useEffect(() => {
@@ -67,4 +67,4 @@ function ProjectCard({ item }) {
   );
 }
 
-export default ProjectCard;
+export default StackCard;
