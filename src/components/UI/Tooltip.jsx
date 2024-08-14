@@ -35,7 +35,7 @@ function Tooltip({ tooltip, children, position = 'top' }) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: position === 'top' ? 5 : 15 }}
             transition={{ duration: 0.2 }}
-            className={`absolute ${getPositionStyles()} w-max rounded-lg border border-slate-700 bg-slate-800 p-1 text-sm text-slate-400 shadow-md`}
+            className={`absolute ${getPositionStyles()} w-max rounded-lg border border-teal-500 bg-teal-950/50 p-1 text-sm text-teal-400 shadow-md backdrop-blur-sm`}
           >
             {tooltip || 'Tooltip'}
           </motion.div>
